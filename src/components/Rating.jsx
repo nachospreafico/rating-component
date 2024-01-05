@@ -9,7 +9,9 @@ const Rating = ({ setSubmit, rating, setRating }) => {
         <img src={StarIcon} alt="" />
       </div>
       <div className="flex flex-col gap-2">
-        <h1 className="text-white font-bold text-2xl">How did we do?</h1>
+        <h1 className="text-white font-bold text-2xl md:text-3xl">
+          How did we do?
+        </h1>
         <p className="text-[14px] text-[#959eac]">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
