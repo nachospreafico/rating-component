@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const Rating = ({ setSubmit, rating, setRating }) => {
   return (
-    <main className="w-[325px] h-[360px]  p-6 rounded-2xl flex flex-col justify-between">
+    <main className="w-[325px] h-[360px] md:w-[410px] md:h-[410px] p-6 rounded-2xl flex flex-col justify-between">
       <div className="flex rounded-full w-fit items-center justify-center bg-[#252d37] p-3">
         <img src={StarIcon} alt="" />
       </div>
