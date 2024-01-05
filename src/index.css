@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Overpass;
+  src: url("./assets/Overpass.ttf");
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Overpass;
+}
+
+main,
+section {
+  background: rgb(34, 40, 49);
+  background: radial-gradient(
+    circle,
+    rgba(34, 40, 49, 1) 0%,
+    rgba(23, 30, 40, 1) 100%
+  );
+}
